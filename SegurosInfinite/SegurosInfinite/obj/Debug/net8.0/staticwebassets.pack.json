@@ -5,10 +5,6 @@
       "PackagePath": "staticwebassets\\Error.jsp"
     },
     {
-      "Id": "C:\\Users\\Lenovo\\OneDrive - Universidad Nacional de Costa Rica\\Development Web\\SegurosInfinite\\SegurosInfinite\\SegurosInfinite\\wwwroot\\Index.html",
-      "PackagePath": "staticwebassets\\Index.html"
-    },
-    {
       "Id": "C:\\Users\\Lenovo\\OneDrive - Universidad Nacional de Costa Rica\\Development Web\\SegurosInfinite\\SegurosInfinite\\SegurosInfinite\\wwwroot\\css\\normalize.css",
       "PackagePath": "staticwebassets\\css\\normalize.css"
     },
@@ -87,6 +83,10 @@
     {
       "Id": "C:\\Users\\Lenovo\\OneDrive - Universidad Nacional de Costa Rica\\Development Web\\SegurosInfinite\\SegurosInfinite\\SegurosInfinite\\wwwroot\\imgs\\logo-modified.png",
       "PackagePath": "staticwebassets\\imgs\\logo-modified.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive - Universidad Nacional de Costa Rica\\Development Web\\SegurosInfinite\\SegurosInfinite\\SegurosInfinite\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
     },
     {
       "Id": "C:\\Users\\Lenovo\\OneDrive - Universidad Nacional de Costa Rica\\Development Web\\SegurosInfinite\\SegurosInfinite\\SegurosInfinite\\wwwroot\\js\\admCliente.js",

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "hoWYsdhKncGGvKQ+533UroayGRbw8ZuBPKi+nlmeVIw=",
+  "Hash": "rU8fYGsmXnazclha4/6dEX6SDqLFoXirZKO/w9iZ+xY=",
   "Source": "SegurosInfinite",
   "BasePath": "_content/SegurosInfinite",
   "Mode": "Default",
@@ -416,12 +416,12 @@
       "OriginalItemSpec": "wwwroot\\imgs\\logo-modified.png"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\OneDrive - Universidad Nacional de Costa Rica\\Development Web\\SegurosInfinite\\SegurosInfinite\\SegurosInfinite\\wwwroot\\Index.html",
+      "Identity": "C:\\Users\\Lenovo\\OneDrive - Universidad Nacional de Costa Rica\\Development Web\\SegurosInfinite\\SegurosInfinite\\SegurosInfinite\\wwwroot\\index.html",
       "SourceId": "SegurosInfinite",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Lenovo\\OneDrive - Universidad Nacional de Costa Rica\\Development Web\\SegurosInfinite\\SegurosInfinite\\SegurosInfinite\\wwwroot\\",
       "BasePath": "_content/SegurosInfinite",
-      "RelativePath": "Index.html",
+      "RelativePath": "index.html",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -432,7 +432,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Index.html"
+      "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
       "Identity": "C:\\Users\\Lenovo\\OneDrive - Universidad Nacional de Costa Rica\\Development Web\\SegurosInfinite\\SegurosInfinite\\SegurosInfinite\\wwwroot\\js\\admCliente.js",
