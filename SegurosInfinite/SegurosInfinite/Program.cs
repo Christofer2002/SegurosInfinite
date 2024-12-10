@@ -5,6 +5,8 @@ builder.Services.AddControllers();
 
 var app = builder.Build();
 
+app.UsePathBase("/secure-infinite");
+
 // Configurar el middleware necesario
 app.UseHttpsRedirection(); // Redireccionar a HTTPS
 app.UseStaticFiles(); // Servir archivos estáticos
@@ -14,7 +16,6 @@ app.UseRouting(); // Habilitar el enrutamiento
 app.UseEndpoints(endpoints =>
 {
     endpoints.MapControllers(); // Mapea los controladores
-    endpoints.MapFallbackToFile("index.html"); // Redirige rutas no encontradas al frontend
 });
 
 // Iniciar la aplicación

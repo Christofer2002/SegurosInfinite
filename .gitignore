@@ -2,3 +2,107 @@
 /SegurosBackEnd/target/
 
 /SegurosInfinite/.vs
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+# NuGet
+*.nupkg
+*.snupkg
+*.nuspec
+.project.nuget.cache
+*.nuget.props
+*.nuget.targets
+packages/
+*.csproj.nuget.g.props
+*.csproj.nuget.g.targets
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+*.runtimeconfig.json
+
+# Code coverage
+*.coverage
+*.coveragexml
+.coverage/
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+.history/
+
+# Rider
+.idea/
+*.iml
+
+# Mac
+*.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Resharper
+*.DotSettings.user
+_ReSharper.Caches/
+
+# Entity Framework
+*.edmx.diagram
+*.edmx.sql
+
+# SQL Server
+*.mdf
+*.ldf
+
+# IIS Express
+/.vs/Config/
+
+# JetBrains Rider
+.idea/
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/gradle.xml
+.idea/libraries/
+.idea/modules.xml
+.idea/runConfigurations/
+.idea/inspectionProfiles/
+out/
+
+# Localization
+*.g.i.cs
+*.g.i.*
+*.designer.*
+
+# Azure Pipelines
+.azdo/
+.azure/
+.pipelines/
