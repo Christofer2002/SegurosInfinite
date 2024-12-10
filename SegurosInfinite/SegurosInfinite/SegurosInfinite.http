@@ -1,0 +1,6 @@
+@SegurosInfinite_HostAddress = http://localhost:5244
+
+GET {{SegurosInfinite_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

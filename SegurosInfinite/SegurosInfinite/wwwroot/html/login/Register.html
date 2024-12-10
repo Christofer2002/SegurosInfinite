@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Agrega este enlace en el head de tu HTML -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.min.css">
+        <title>Registro de usuario</title>
+    </head>
+    <body>
+        <div id="header"></div>
+        <div class="container mx-auto my-5">
+            <div class="max-w-md bg-white rounded-lg shadow-xl mx-auto">
+                <h1 class="text-3xl text-center font-bold text-blue-600 py-6">Registro de usuario</h1>
+                <form class="p-6">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div>
+                            <label for="identificacion" class="text-gray-700">Identificación</label>
+                            <input type="text" class="form-input mt-2 border-2 border-gray-300 rounded-md focus:outline-none focus:border-blue-600" id="id" name="identificacion" required>
+                        </div>
+                        <div>
+                            <label for="clave" class="text-gray-700">Clave</label>
+                            <input type="password" class="form-input mt-2 border-2 border-gray-300 rounded-md focus:outline-none focus:border-blue-600" id="clave" name="clave" required>
+                        </div>
+                        <div>
+                            <label for="nombre" class="text-gray-700">Nombre</label>
+                            <input type="text" class="form-input mt-2 border-2 border-gray-300 rounded-md focus:outline-none focus:border-blue-600" id="nombre" name="nombre" required>
+                        </div>
+                        <div>
+                            <label for="telefono" class="text-gray-700">Teléfono</label>
+                            <input type="text" class="form-input mt-2 border-2 border-gray-300 rounded-md focus:outline-none focus:border-blue-600" id="telefono" name="telefono" required>
+                        </div>
+                        <div>
+                            <label for="correo" class="text-gray-700">Correo electrónico</label>
+                            <input type="email" class="form-input mt-2 border-2 border-gray-300 rounded-md focus:outline-none focus:border-blue-600" id="correo" name="correo" required>
+                        </div>
+                        <div>
+                            <label for="tarjeta" class="text-gray-700">Datos de tarjeta</label>
+                            <input class="form-input mt-2 border-2 border-gray-300 rounded-md focus:outline-none focus:border-blue-600" id="tarjeta" name="tarjeta" required>
+                        </div>
+                    </div>
+                    <div class="mt-6">
+                        <label class="flex items-center">
+                            <input id="checkbox-politicas" type="checkbox" class="form-checkbox border-gray-300 text-blue-600" required>
+                            <span class="ml-2 text-gray-700 text-sm">
+                                Acepto las <a href="#" class="text-blue-600 hover:underline">políticas de la página</a>
+                            </span>
+                        </label>
+                        <p id="policyError" class="text-red-500 text-sm hidden mt-2">Debes aceptar las políticas de la página</p>
+                    </div>
+                    <div class="mt-6">
+                        <button id="registrar" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded cursor-pointer">
+                            Registrar
+                        </button>
+                    </div>
+                </form>
+                <div class="text-center mt-4">
+                    <p class="text-gray-700">¿Ya tienes cuenta? <a href="/SegurosFrontEnd/presentation/Index.html" class="text-blue-600 hover:underline">Ingresa aquí</a></p>
+                </div>
+            </div>
+        </div>
+        <div id="footer"></div>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.min.js"></script>
+        <script src="../../js/user.js"></script>
+        <script src="../../js/includes.js"></script>
+       
+    </body>
+</html>

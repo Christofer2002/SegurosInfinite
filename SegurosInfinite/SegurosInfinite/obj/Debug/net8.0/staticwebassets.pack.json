@@ -1,0 +1,133 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive - Universidad Nacional de Costa Rica\\Development Web\\SegurosInfinite\\SegurosInfinite\\SegurosInfinite\\wwwroot\\Error.jsp",
+      "PackagePath": "staticwebassets\\Error.jsp"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive - Universidad Nacional de Costa Rica\\Development Web\\SegurosInfinite\\SegurosInfinite\\SegurosInfinite\\wwwroot\\Index.html",
+      "PackagePath": "staticwebassets\\Index.html"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive - Universidad Nacional de Costa Rica\\Development Web\\SegurosInfinite\\SegurosInfinite\\SegurosInfinite\\wwwroot\\css\\normalize.css",
+      "PackagePath": "staticwebassets\\css\\normalize.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive - Universidad Nacional de Costa Rica\\Development Web\\SegurosInfinite\\SegurosInfinite\\SegurosInfinite\\wwwroot\\css\\search.css",
+      "PackagePath": "staticwebassets\\css\\search.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive - Universidad Nacional de Costa Rica\\Development Web\\SegurosInfinite\\SegurosInfinite\\SegurosInfinite\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive - Universidad Nacional de Costa Rica\\Development Web\\SegurosInfinite\\SegurosInfinite\\SegurosInfinite\\wwwroot\\html\\administrador\\categorias\\View.html",
+      "PackagePath": "staticwebassets\\html\\administrador\\categorias\\View.html"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive - Universidad Nacional de Costa Rica\\Development Web\\SegurosInfinite\\SegurosInfinite\\SegurosInfinite\\wwwroot\\html\\administrador\\clientes\\View.html",
+      "PackagePath": "staticwebassets\\html\\administrador\\clientes\\View.html"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive - Universidad Nacional de Costa Rica\\Development Web\\SegurosInfinite\\SegurosInfinite\\SegurosInfinite\\wwwroot\\html\\administrador\\marcas-modelos\\View.html",
+      "PackagePath": "staticwebassets\\html\\administrador\\marcas-modelos\\View.html"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive - Universidad Nacional de Costa Rica\\Development Web\\SegurosInfinite\\SegurosInfinite\\SegurosInfinite\\wwwroot\\html\\administrador\\menu\\View.html",
+      "PackagePath": "staticwebassets\\html\\administrador\\menu\\View.html"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive - Universidad Nacional de Costa Rica\\Development Web\\SegurosInfinite\\SegurosInfinite\\SegurosInfinite\\wwwroot\\html\\cliente\\datos\\View.html",
+      "PackagePath": "staticwebassets\\html\\cliente\\datos\\View.html"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive - Universidad Nacional de Costa Rica\\Development Web\\SegurosInfinite\\SegurosInfinite\\SegurosInfinite\\wwwroot\\html\\cliente\\polizas\\Detalles.html",
+      "PackagePath": "staticwebassets\\html\\cliente\\polizas\\Detalles.html"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive - Universidad Nacional de Costa Rica\\Development Web\\SegurosInfinite\\SegurosInfinite\\SegurosInfinite\\wwwroot\\html\\cliente\\polizas\\View.html",
+      "PackagePath": "staticwebassets\\html\\cliente\\polizas\\View.html"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive - Universidad Nacional de Costa Rica\\Development Web\\SegurosInfinite\\SegurosInfinite\\SegurosInfinite\\wwwroot\\html\\includes\\Footer.html",
+      "PackagePath": "staticwebassets\\html\\includes\\Footer.html"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive - Universidad Nacional de Costa Rica\\Development Web\\SegurosInfinite\\SegurosInfinite\\SegurosInfinite\\wwwroot\\html\\includes\\Header.html",
+      "PackagePath": "staticwebassets\\html\\includes\\Header.html"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive - Universidad Nacional de Costa Rica\\Development Web\\SegurosInfinite\\SegurosInfinite\\SegurosInfinite\\wwwroot\\html\\login\\Register.html",
+      "PackagePath": "staticwebassets\\html\\login\\Register.html"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive - Universidad Nacional de Costa Rica\\Development Web\\SegurosInfinite\\SegurosInfinite\\SegurosInfinite\\wwwroot\\html\\login\\View.html",
+      "PackagePath": "staticwebassets\\html\\login\\View.html"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive - Universidad Nacional de Costa Rica\\Development Web\\SegurosInfinite\\SegurosInfinite\\SegurosInfinite\\wwwroot\\imgs\\img1.jpg",
+      "PackagePath": "staticwebassets\\imgs\\img1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive - Universidad Nacional de Costa Rica\\Development Web\\SegurosInfinite\\SegurosInfinite\\SegurosInfinite\\wwwroot\\imgs\\img2.jpg",
+      "PackagePath": "staticwebassets\\imgs\\img2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive - Universidad Nacional de Costa Rica\\Development Web\\SegurosInfinite\\SegurosInfinite\\SegurosInfinite\\wwwroot\\imgs\\img3.jpg",
+      "PackagePath": "staticwebassets\\imgs\\img3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive - Universidad Nacional de Costa Rica\\Development Web\\SegurosInfinite\\SegurosInfinite\\SegurosInfinite\\wwwroot\\imgs\\img4.jpg",
+      "PackagePath": "staticwebassets\\imgs\\img4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive - Universidad Nacional de Costa Rica\\Development Web\\SegurosInfinite\\SegurosInfinite\\SegurosInfinite\\wwwroot\\imgs\\is-invalid.png",
+      "PackagePath": "staticwebassets\\imgs\\is-invalid.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive - Universidad Nacional de Costa Rica\\Development Web\\SegurosInfinite\\SegurosInfinite\\SegurosInfinite\\wwwroot\\imgs\\logo-modified.png",
+      "PackagePath": "staticwebassets\\imgs\\logo-modified.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive - Universidad Nacional de Costa Rica\\Development Web\\SegurosInfinite\\SegurosInfinite\\SegurosInfinite\\wwwroot\\js\\admCliente.js",
+      "PackagePath": "staticwebassets\\js\\admCliente.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive - Universidad Nacional de Costa Rica\\Development Web\\SegurosInfinite\\SegurosInfinite\\SegurosInfinite\\wwwroot\\js\\admCoberturas.js",
+      "PackagePath": "staticwebassets\\js\\admCoberturas.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive - Universidad Nacional de Costa Rica\\Development Web\\SegurosInfinite\\SegurosInfinite\\SegurosInfinite\\wwwroot\\js\\admModelos.js",
+      "PackagePath": "staticwebassets\\js\\admModelos.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive - Universidad Nacional de Costa Rica\\Development Web\\SegurosInfinite\\SegurosInfinite\\SegurosInfinite\\wwwroot\\js\\includes.js",
+      "PackagePath": "staticwebassets\\js\\includes.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive - Universidad Nacional de Costa Rica\\Development Web\\SegurosInfinite\\SegurosInfinite\\SegurosInfinite\\wwwroot\\js\\modal.js",
+      "PackagePath": "staticwebassets\\js\\modal.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive - Universidad Nacional de Costa Rica\\Development Web\\SegurosInfinite\\SegurosInfinite\\SegurosInfinite\\wwwroot\\js\\user.js",
+      "PackagePath": "staticwebassets\\js\\user.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.SegurosInfinite.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.SegurosInfinite.props",
+      "PackagePath": "build\\SegurosInfinite.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.SegurosInfinite.props",
+      "PackagePath": "buildMultiTargeting\\SegurosInfinite.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.SegurosInfinite.props",
+      "PackagePath": "buildTransitive\\SegurosInfinite.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
