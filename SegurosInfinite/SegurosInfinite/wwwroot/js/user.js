@@ -120,13 +120,13 @@ async function login() {
                 let paginaEscoger = '';
                 switch (userGlobal.usuario.tipo) {
                     case 1:
-                        paginaEscoger = '/html/cliente/polizas/View.html';
+                        paginaEscoger = 'SegurosInfinite/wwwroot/html/cliente/polizas/View.html';
                         // Redireccionar a la página correspondiente
                         window.location.href = paginaEscoger;
                         console.log('Inicio de sesión exitoso - Tipo 1');
                         break;
                     case 2:
-                        paginaEscoger = '/html/administrador/menu/View.html';
+                        paginaEscoger = 'SegurosInfinite/wwwroot/html/administrador/menu/View.html';
                         // Redireccionar a la página correspondiente
                         window.location.href = paginaEscoger;
                         console.log('Inicio de sesión exitoso - Tipo 20');
@@ -536,7 +536,7 @@ document.addEventListener('DOMContentLoaded', function () {
     var url = window.location.href;
 
     // Verificar si la URL coincide con la página específica
-    if (url.includes("/html/cliente/datos/View.html")) {
+    if ( url.includes("SegurosInfinite/wwwroot/html/cliente/datos/View.html")) {
         obtenerDatosCliente();
     }
 });
@@ -547,7 +547,7 @@ document.addEventListener('DOMContentLoaded', function () {
     var url = window.location.href;
 
     // Verificar si la URL coincide con la página específica
-    if ( url.includes("/html/cliente/cliente/polizas/View.html")) {
+    if ( url.includes("SegurosInfinite/wwwroot/html/cliente/cliente/polizas/View.html")) {
         obtenerPolizas();
     }
 });

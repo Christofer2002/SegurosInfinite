@@ -1,13 +1,13 @@
 const header = document.getElementById('header');
 const footer = document.getElementById('footer')
 
-fetch('/html/includes/Header.html')
+fetch('SegurosInfinite/wwwroot/html/includes/Header.html')
         .then(response => response.text())
         .then(data =>{
         header.innerHTML = data;
 });
 
-fetch('/html/includes/Footer.html')
+fetch('SegurosInfinite/wwwroot/html/includes/Footer.html')
         .then(response => response.text())
         .then(data =>{
         footer.innerHTML = data;
