@@ -547,7 +547,7 @@ document.addEventListener('DOMContentLoaded', function () {
     var url = window.location.href;
 
     // Verificar si la URL coincide con la página específica
-    if ( url.includes("/SegurosInfinite/wwwroot/html/cliente/cliente/polizas/View.html")) {
+    if ( url.includes("/SegurosInfinite/wwwroot/html/cliente/polizas/View.html")) {
         obtenerPolizas();
     }
 });
