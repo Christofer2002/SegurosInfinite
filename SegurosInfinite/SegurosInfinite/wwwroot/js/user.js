@@ -209,7 +209,7 @@ async function obtenerPolizas() {
                     <td class="border border-gray-300 px-4 py-2"><img class="imagen" src="${backend}/polizas/${poliza.idPolizaModelo}/imagen" style="width: 50px; height: 50px;"></td>
                     <td class="border border-gray-300 px-4 py-2">₡${poliza.costoTotal}</td>
                     <td class="border border-gray-300 px-4 py-2">${poliza.plazoPago}</td>
-                    <td class="border border-gray-300 px-4 py-2"> <a href="/SegurosFrontEnd/presentation/cliente/polizas/Detalles.html?idPoliza=${poliza.idPoliza}"><i class="fas fa-eye"></i></a> </td>
+                    <td class="border border-gray-300 px-4 py-2"> <a href="/SegurosInfinite/wwwroot/html/cliente/polizas/Detalles.html?idPoliza=${poliza.idPoliza}"><i class="fas fa-eye"></i></a> </td>
                 </tr>
             `;
             });
@@ -253,7 +253,7 @@ async function obtenerPolizasPorPlaca(event, placa) {
                     <td class="border border-gray-300 px-4 py-2"><img class="imagen" src="${backend}/polizas/${poliza.idPolizaModelo}/imagen" style="width: 50px; height: 50px;"></td>
                     <td class="border border-gray-300 px-4 py-2">₡${poliza.costoTotal}</td>
                     <td class="border border-gray-300 px-4 py-2">${poliza.plazoPago}</td>
-                   <td class="border border-gray-300 px-4 py-2"> <a href="/SegurosFrontEnd/presentation/cliente/polizas/Detalles.html?idPoliza=${poliza.idPoliza}"><i class="fas fa-eye"></i></a> </td>
+                   <td class="border border-gray-300 px-4 py-2"> <a href="/SegurosInfinite/wwwroot/html/cliente/polizas/Detalles.html?idPoliza=${poliza.idPoliza}"><i class="fas fa-eye"></i></a> </td>
                 </tr>
             `;
             });
