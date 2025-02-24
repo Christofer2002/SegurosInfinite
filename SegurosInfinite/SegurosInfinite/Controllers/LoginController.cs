@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using SegurosInfinite.Models;
+using SegurosInfinite.Models.User;
 
 namespace SegurosInfinite.Controllers
 {

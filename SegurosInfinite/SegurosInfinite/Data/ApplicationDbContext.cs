@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using SegurosInfinite.Models;
+using SegurosInfinite.Models.User;
 
 namespace SegurosInfinite.Data
 {
