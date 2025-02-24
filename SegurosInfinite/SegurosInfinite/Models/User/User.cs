@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SegurosInfinite.Models
+namespace SegurosInfinite.Models.User
 {
     public class User
     {
