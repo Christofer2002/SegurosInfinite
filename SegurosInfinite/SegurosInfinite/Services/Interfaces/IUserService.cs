@@ -1,4 +1,4 @@
-﻿using SegurosInfinite.Models;
+﻿using SegurosInfinite.Models.User;
 
 namespace SegurosInfinite.Services.Interfaces
 {
