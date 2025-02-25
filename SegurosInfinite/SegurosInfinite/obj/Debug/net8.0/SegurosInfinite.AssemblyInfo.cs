@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SegurosInfinite")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+045c3c2b4df4d1ea16f93a1c7ff3b4771ddf5166")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+483cb8b865faa629b7d32a0d12121f7f83d2df27")]
 [assembly: System.Reflection.AssemblyProductAttribute("SegurosInfinite")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SegurosInfinite")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
