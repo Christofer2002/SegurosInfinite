@@ -60,33 +60,6 @@ public class Poliza {
     public void setIdPolizaModelo(int idPolizaModelo) {
         this.idPolizaModelo = idPolizaModelo;
     }
-    
-    
-    
-    public Poliza(String placa, Date fechaInicio, String plazoPago, String auto, String annio, BigDecimal costoTotal, Cliente cliente) {
-        this.placa = placa;
-        this.fechaInicio = fechaInicio;
-        this.plazoPago = plazoPago;
-        this.auto = auto;
-        this.annio = annio;
-        this.costoTotal = costoTotal;
-        this.cliente = cliente;
-    }
-    
-     public Poliza(String placa, Date fechaInicio, String plazoPago, String auto, String annio, BigDecimal costoTotal, Cliente cliente, int idPolizaModelo) {
-        this.placa = placa;
-        this.fechaInicio = fechaInicio;
-        this.plazoPago = plazoPago;
-        this.auto = auto;
-        this.annio = annio;
-        this.costoTotal = costoTotal;
-        this.cliente = cliente;
-        this.idPolizaModelo= idPolizaModelo;
-    }
-    
-     
-     
-    
 
     public int getIdPoliza() {
         return idPoliza;

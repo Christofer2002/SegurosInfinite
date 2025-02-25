@@ -1,7 +1,7 @@
 ﻿using SegurosInfinite.Data;
-using SegurosInfinite.Models;
 using SegurosInfinite.Services.Interfaces;
 using Microsoft.EntityFrameworkCore;
+using SegurosInfinite.Models.User;
 
 namespace SegurosInfinite.Services
 {
