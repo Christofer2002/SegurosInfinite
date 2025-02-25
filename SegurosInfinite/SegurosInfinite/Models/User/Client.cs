@@ -1,33 +1,39 @@
 ﻿using System;
 using System.Collections.Generic;
-using SegurosInfinite.Models;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
 namespace SegurosInfinite.Models.User
 {
     [Serializable]
     public class Client
     {
+        [Key] // 📌 Defines Cedula as the primary key
+        [Required]
+        [MaxLength(20)] // 📌 Ensures Cedula has a reasonable length
         public string Cedula { get; set; }
+
+        [Required]
+        [MaxLength(100)] // 📌 Limits name length
         public string Nombre { get; set; }
+
+        // 📌 One-to-One relationship with User
+        [ForeignKey("UserId")]
         public User User { get; set; }
+
+        // 📌 One-to-Many relationship with Insurance
         public List<Insurance> Insurances { get; set; }
 
-        // Constructor without params
-        public Client() : this("", "", new User
+        // ✅ Default constructor
+        public Client()
         {
-            Id = "",
-            FirstName = "",
-            LastName = "",
-            Cedula = "",
-            Password = "",
-            Phone = "",
-            Email = "",
-            UserType = "",
-            Role = ""
-        })
-        { }
+            Cedula = string.Empty;
+            Nombre = string.Empty;
+            User = new User();
+            Insurances = new List<Insurance>();
+        }
 
-
-        // Constructor with params
+        // ✅ Constructor with parameters
         public Client(string cedula, string nombre, User usuario)
         {
             Cedula = cedula;
@@ -36,7 +42,7 @@ namespace SegurosInfinite.Models.User
             Insurances = new List<Insurance>();
         }
 
-        // Método Equals para comparación de objetos
+        // ✅ Override Equals for object comparison
         public override bool Equals(object obj)
         {
             if (obj is Client other)
@@ -46,7 +52,7 @@ namespace SegurosInfinite.Models.User
             return false;
         }
 
-        // Sobreescribir GetHashCode para mantener coherencia con Equals
+        // ✅ Override GetHashCode to maintain consistency with Equals
         public override int GetHashCode()
         {
             return Cedula?.GetHashCode() ?? 0;

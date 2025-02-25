@@ -1,6 +1,10 @@
 /SegurosFrontEnd/target/
 /SegurosBackEnd/target/
 
+# Ignorar todas las carpetas bin y obj
+bin/
+obj/
+
 /SegurosInfinite/.vs
 
 # Visual Studio

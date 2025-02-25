@@ -1,29 +1,55 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace SegurosInfinite.Models.User
 {
     public class User
     {
-        public required string Id { get; set; } // Primary Key
+        [Key] // 📌 Defines Id as the primary key
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)] // 📌 Makes Id auto-incremental
+        public string Id { get; set; }
 
-        // Personal details
-        public required string FirstName { get; set; }
-        public required string LastName { get; set; }
-        public required string Cedula { get; set; } // Identifier (could be ID or Social Security number)
-        public required string Password { get; set; } // Encrypted password for security purposes
-        public required string Phone { get; set; }
-        public required string Email { get; set; }
+        // 📌 Personal details
+        [Required]
+        [MaxLength(100)]
+        public string FirstName { get; set; }
 
-        // User type, can represent roles such as Admin or Customer
-        public required string UserType { get; set; }
+        [Required]
+        [MaxLength(100)]
+        public string LastName { get; set; }
 
-        // User role (might be used for authorization purposes)
-        public required string Role { get; set; }
+        [Required]
+        [MaxLength(20)]
+        public string Cedula { get; set; } // Identifier (could be ID or Social Security number)
 
-        // Constructor without params
+        [Required]
+        [MaxLength(255)]
+        public string Password { get; set; } // Encrypted password for security purposes
+
+        [Required]
+        [MaxLength(20)]
+        public string Phone { get; set; }
+
+        [Required]
+        [MaxLength(100)]
+        [EmailAddress] // 📌 Ensures a valid email format
+        public string Email { get; set; }
+
+        // 📌 User type, can represent roles such as Admin or Customer
+        [Required]
+        [MaxLength(50)]
+        public string UserType { get; set; }
+
+        // 📌 User role (might be used for authorization purposes)
+        [Required]
+        [MaxLength(50)]
+        public string Role { get; set; }
+
+        // ✅ Default constructor
         public User()
         {
-            Id = string.Empty;
+            Id = Guid.NewGuid().ToString(); // 📌 Generates a unique ID
             FirstName = string.Empty;
             LastName = string.Empty;
             Cedula = string.Empty;
@@ -34,7 +60,7 @@ namespace SegurosInfinite.Models.User
             Role = string.Empty;
         }
 
-        // Constructor with params
+        // ✅ Constructor with parameters
         public User(string id, string firstName, string lastName, string cedula, string password, string phone, string email, string userType, string role)
         {
             Id = id;

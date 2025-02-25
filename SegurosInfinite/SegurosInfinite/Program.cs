@@ -1,10 +1,10 @@
 using Microsoft.EntityFrameworkCore;
 using SegurosInfinite.Data;
 using SegurosInfinite.Services.Interfaces;
-using SegurosInfinite.Services;
 using Microsoft.AspNetCore.Authentication;
 using SegurosInfinite.Services.Authentication;
 using Microsoft.Extensions.Options;
+using SegurosInfinite.Services.Implementations;
 
 var builder = WebApplication.CreateBuilder(args);
 
